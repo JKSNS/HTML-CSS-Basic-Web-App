@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    /* This is used to import the custom image from googleapi */
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    /*This is used to import the custom image from googleapi */
+    </style>
+    <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#">Relevant Projects</a></li>
+      <li><a href="https://www.byu.edu">My School's Webpage</a></li>
+      <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Error 404</a></li>
+    </ul>
+  </nav>
+  <!-- Add an appropriate title in this tag -->
+  <title>BYU IT&C-210</title>
+  <h1>BYU IT&C-210</h1>
+  <!-- Links to stylesheets -->
+</head>
+
+<body>
+  <!-- Your visible elements -->
+  <script src="js/script.js"></script>
+  <!-- To do list/ Task list -->
+  <h3>My Tasks:</h3>
+  <table>
+    <tr>
+      <td><input type='checkbox' class="toggle-switch" id="cb-sort"/><label for="cb-sort">Sort by date</label></td>
+      <td><input type='checkbox' class="toggle-switch" id="cb-sort"/><label for="cb-sort">Filter completed tasks</label></td>
+    </tr>
+  </table>
+  <ul class="tasklist">
+    <li class="task" class="my-description"><input type="checkbox" class="task-done checkbox-icon"/><span class="task-description" class="checkbox-icon.checked" >Order pizza </span><span class="task-date">07-15-2021 </span> <button class="task-delete material-icon"> delete</span></button></li>
+      <li class="task"><input type="checkbox" class="task-done checkbox-icon"/><span class="task-description">Hike Mt.Timpanogos </span><span class="task-date">07-10-2021 </span> <button class="task-delete material-icon"> delete</span></button></li>
+        <li class="task"><input type="checkbox" class="task-done checkbox-icon"/><span class="task-description">Finish Lab 2b </span><span class="task-date">07-07-2021 </span> <button class="task-delete material-icon"> delete</span></button></li>
+  </ul>
+  
+
+<!-- Forms -->
+<!-- Add php action to make it live-->
+<form class="form-create-task" onsubmit="on_submit(event)">
+  <input type="text" class="task-input" name="description" placeholder="New Task" required><br>
+   <input name="Date" type="date" required><br>
+  <button class="custom-button">Create Task</button><br>
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- Links to scripts -->
+</body>
+
+</html>
