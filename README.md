@@ -15,9 +15,9 @@ Lab 1 was broken up into two parts: 1A and 1B. Lab 1A focused on software setup,
 
 The website that we created has a main function of being a task list application. This being composed of a nav bar, list variations, and a form that has the capability to be programmed to intake dates, tasks, and subsequently be deleted. The HTML written served as a bare bones, general framework for the website. The CSS added more dynamic contrast, color, and formatting to the webpage. Specific to my website, I imported a bootstrap purple to showcase the title, "BYU IT&C-210" while also accenting the page with the sort by buttons accent green. I gave the background a custom, black, sleek image. I imported a custom button for the trash icon. I also added dynamics to the hover function while making a new task. 
 
-![Active Website](src/images/Website1.png)
+![Active Website](images/Website1.png)
 
-![Unactive Website](src/images/.png)
+![Unactive Website](images/Website2.png)
 
 
 ## Files used: 
